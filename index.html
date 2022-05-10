@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>News Aggregator</h1>
+    <div class="form">
+        <label for="words">Keywords (separate by comma)</label>
+        <input type="text" id="words" name="keywords"><br/>
+        <label for="hours">Time interval (hours)</label>
+        <input type="number" id="hours" name="hours" value="12"><br/>
+        <button id="search">Search</button>
+    </div>
+    <div class="meter animate">
+        <span><span></span></span>
+    </div>
+    <h5 id="errMsg"></h5>
+    <div class="news"></div>
+</div>
+<script src="js/js.js"></script>
+</body>
+</html>
